@@ -5,13 +5,17 @@ import {NavBar} from './view/common/Navbar/NavBar';
 import {findAllByDisplayValue} from "@testing-library/react";
 import { MainContent } from './view/common/MainContent/MainContent';
 import { Footer } from './view/common/Footer/Footer';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
       <div>
-     <NavBar></NavBar>
-     <MainContent></MainContent>
-     <Footer></Footer>
+        <BrowserRouter>
+            <NavBar></NavBar>
+            <MainContent></MainContent>
+            <Footer></Footer>
+     </BrowserRouter>
+     
       </div>
   );
 }
