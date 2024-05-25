@@ -1,10 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 // import './App.css';
-import {NavBar} from './view/Navbar/NavBar';
+import {NavBar} from './view/common/Navbar/NavBar';
 import {findAllByDisplayValue} from "@testing-library/react";
-import { MainContent } from './view/MainContent/MainContent';
-import { Footer } from './view/Footer/Footer';
+import { MainContent } from './view/common/MainContent/MainContent';
+import { Footer } from './view/common/Footer/Footer';
 
 function App() {
   return (
