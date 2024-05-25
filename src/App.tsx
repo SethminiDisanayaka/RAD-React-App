@@ -4,12 +4,14 @@ import logo from './logo.svg';
 import {NavBar} from './view/Navbar/NavBar';
 import {findAllByDisplayValue} from "@testing-library/react";
 import { MainContent } from './view/MainContent/MainContent';
+import { Footer } from './view/Footer/Footer';
 
 function App() {
   return (
       <div>
      <NavBar></NavBar>
      <MainContent></MainContent>
+     <Footer></Footer>
       </div>
   );
 }
