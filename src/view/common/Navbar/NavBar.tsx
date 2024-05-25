@@ -1,5 +1,5 @@
 import {Component} from "react";
-import icon from '../../images/coca-leaves.png'
+import icon from '../../../images/coca-leaves.png';
 
 export class NavBar extends Component {
 
