@@ -4,8 +4,8 @@ export class MainContent extends Component {
 
     render() {
         return (
-            <div className="md:px12 p-4 mx-auto bg-amber-100">
-                <h1 className="text-1xl text-center text-secondaryColor pt-28 pb-28">This is main content</h1>
+            <div className="md:px-12 max-2x1 mx-auto pt-28 pb-28">
+                <h1 className="text-[#111212] text-center"> This is Main Content</h1>
             </div>
         );
     }
