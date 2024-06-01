@@ -15,10 +15,10 @@ function App() {
       <div>
         <BrowserRouter>
          <Routes>
-             <Route path="" Component={DefaultLayout}>
+             <Route path="/*" Component={DefaultLayout}>
 
              </Route>
-             <Route path="" Component={login}>
+             <Route path="/login" Component={login}>
 
              </Route>
          </Routes>

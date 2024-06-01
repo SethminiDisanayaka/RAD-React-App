@@ -20,8 +20,9 @@ export class NavBar extends Component {
                     <li className="inline-block mr-6 text-[#0af712] cursor-pointer hover:text-green-400"><Link to="/contact">Contact</Link></li>
                 </ul>
 
-        <button className="text-[12px] text-[#000000] bg-[#3febb5] pl-3 pr-3 rounded hover:text-[#ffffff] ml-[600px]" 
-               onClick={OnSignInClick} > Sign In</button>
+        <button className="text-[12px] text-[#000000] bg-[#3febb5] pl-3 pr-3 rounded hover:text-[#ffffff] ml-[600px]">
+            <Link to="/login"> Sign In</Link>
+        </button>
                 </div>
         );
     }
