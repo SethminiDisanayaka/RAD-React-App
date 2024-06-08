@@ -1,4 +1,6 @@
+import { ProductModel } from "./ProductModel";
+
 export interface CartItem{
-    product : {},
+    product : ProductModel,
     itemCount : number
 }
