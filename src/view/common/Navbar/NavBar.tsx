@@ -1,43 +1,29 @@
 import {Component} from "react";
-import icon from '../../../images/coca-leaves.png';
+import icon from '../../../images/coca-leaves.png'
 import {Link} from "react-router-dom";
 
 export class NavBar extends Component {
-
     render() {
-
+        function OnSignInClick(){
+            alert("Button Clicked")
+        }
         return (
-            <div className="p-2
-                            bg-[#444544]
-                            flex">
-                <h1 className="text-1x1
-                         text-secondary">
-                    Organic Shop
-                </h1>
-                <img className="h-5 w-5 ml-1"
-                     src={icon} alt=""/>
 
-                <ul className="list-none ml-[100px]">
-                    <li className="inline-block mr-2
-                                text-[#e6f0e6]
-                                cursor-pointer
-                                hover:text-green-400">
-                        <Link to="/">Home</Link></li>
-                    <li className="inline-block mr-2 text-[#e6f0e6] cursor-pointer hover:text-green-400">
-                        <Link to="/about">About</Link></li>
-                    <li className="inline-block mr-2 text-[#e6f0e6] cursor-pointer hover:text-green-400">
-                        <Link to="/contact">Contact</Link></li>
+            <div className="p-4 bg-[#1f6326] flex">
+                <h1 className="text-1x1 text-[#0af712] ">Organic Shop</h1>
+
+                <img className={"h-8 w-8 ml-1"} src={icon} alt={""}></img>
+
+                <ul className="list-none ml-[450px]">
+                    <li className="inline-block mr-6 text-[#0af712] cursor-pointer hover:text-green-400"><Link to="/">Home</Link></li>
+                    <li className="inline-block mr-6 text-[#0af712] cursor-pointer hover:text-green-400"><Link to="/about">About</Link></li>
+                    <li className="inline-block mr-6 text-[#0af712] cursor-pointer hover:text-green-400"><Link to="/contact">Contact</Link></li>
                 </ul>
 
-                <button className="text-[8px]
-                                   text-[#e6f0e6]
-                                   bg-secondary
-                                   pl-3 pr-3
-                                   rounded
-                                   hover:text-tertiary">
-                    <Link to="/login">Sign In</Link>
-                </button>
-            </div>
+        <button className="text-[12px] text-[#000000] bg-[#3febb5] pl-3 pr-3 rounded hover:text-[#ffffff] ml-[600px]">
+            <Link to="/login"> Sign In</Link>
+        </button>
+                </div>
         );
     }
 }

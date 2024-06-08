@@ -4,20 +4,20 @@
     "name": "Spinach",
     "price": "200",
     "currency": "LKR",
-    "image": "spinach.png"
+    "image": "spinach.jpg"
   },
   {
     "id": 2,
     "name": "Beans",
     "price": "150",
     "currency": "LKR",
-    "image": "beans.png"
+    "image": "Bell-Peppers.jpg"
   },
   {
     "id": 3,
     "name": "Tomato",
     "price": "250",
     "currency": "LKR",
-    "image": "tomato.png"
+    "image": "tomato.jpg"
   }
 ]
