@@ -4,15 +4,13 @@ import {MainContent} from "../MainContent/MainContent";
 import {Footer} from "../Footer/Footer";
 
 export class DefaultLayout extends Component {
-
     render() {
         return (
             <>
-                <NavBar></NavBar>
-                <MainContent></MainContent>
-                <Footer></Footer>
+                <NavBar/>
+                <MainContent/>
+                <Footer/>
             </>
-
         );
     }
 }

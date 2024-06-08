@@ -64,33 +64,6 @@ export class Home extends Component {
                             <button className="w-full mt-1 p-[2.4px] bg-secondaryColor text-[8px] border-gray-500 border-[0.5px]">Add to Cart</button>
                         </div>
                     </div>
-                    <div className="w-28 h-32
-                                   bg-blue-300
-                                   mr-2
-                                   mb-2
-                                   flex
-                                   justify-center
-                                   items-center">
-                        04
-                    </div>
-                    <div className="w-28 h-32
-                                   bg-blue-300
-                                   mr-2
-                                   mb-2
-                                   flex
-                                   justify-center
-                                   items-center">
-                        05
-                    </div>
-                    <div className="w-28 h-32
-                                   bg-blue-300
-                                   mr-2
-                                   mb-2
-                                   flex
-                                   justify-center
-                                   items-center">
-                        06
-                    </div>
                 </div>
             </div>
         );
