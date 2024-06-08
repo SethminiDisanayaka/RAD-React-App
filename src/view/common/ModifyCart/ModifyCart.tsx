@@ -1,4 +1,5 @@
 import {Component} from "react";
+import { CartItem } from "../../../Model/CartItem";
 
 interface ModifyCartProps{
 
