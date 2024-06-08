@@ -1,5 +1,6 @@
 import {Component} from "react";
-
+// @ts-ignore
+import {ModifyCart} from "../ModifyCart/ModifyCart"
 interface ProductProps {
     data: any;
 }
@@ -36,7 +37,7 @@ export class Product extends Component<ProductProps ,ProductState> {
                 <div className="flex justify-center">
                     {
                         this.state.isActive?
-                            <div className=" w-full mt-1 p-[2.4px] text-[8px] text-center">Modify Cart</div>
+                            <ModifyCart/>
                             :
                         <button className="w-full mt-1 p-[2.4px] bg-secondary text-[8px] border-gray-500 border-[0.5px]"
                                 onClick={this.addToCartOnClick}>Add to Cart</button>
