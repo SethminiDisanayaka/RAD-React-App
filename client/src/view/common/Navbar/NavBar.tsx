@@ -18,6 +18,8 @@ export class NavBar extends Component {
                     <li className="inline-block mr-6 text-[#0af712] cursor-pointer hover:text-green-400"><Link to="/">Home</Link></li>
                     <li className="inline-block mr-6 text-[#0af712] cursor-pointer hover:text-green-400"><Link to="/about">About</Link></li>
                     <li className="inline-block mr-6 text-[#0af712] cursor-pointer hover:text-green-400"><Link to="/contact">Contact</Link></li>
+                    <li className="inline-block mr-6 text-[#0af712] cursor-pointer hover:text-green-400"><Link to="/shoppingCart">ShoppingCart</Link></li>
+
                 </ul>
 
         <button className="text-[12px] text-[#000000] bg-[#3febb5] pl-3 pr-3 rounded hover:text-[#ffffff] ml-[600px]">
